@@ -1,0 +1,68 @@
+﻿@model VisualizzaLog.Models.Connection
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Dettagli</h1>
+
+<div>
+    <h4>Connessione</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ConnectionTimestamp)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ConnectionTimestamp)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Flag)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Flag)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NatFlag)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NatFlag)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Protocol)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Protocol)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SRCAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SRCAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SRCPort)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SRCPort)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DSTAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DSTAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DSTPort)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DSTPort)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TCPState)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TCPState)
+        </dd>
+    </dl>
+</div>

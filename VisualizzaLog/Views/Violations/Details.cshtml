@@ -1,0 +1,26 @@
+﻿@model VisualizzaLog.Models.Violation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Dettagli</h1>
+
+<div>
+    <h4>Violazione</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Connection)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Connection.DSTAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rule)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rule.Contenuto)
+        </dd>
+    </dl>
+</div>

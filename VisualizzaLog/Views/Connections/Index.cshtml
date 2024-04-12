@@ -1,0 +1,117 @@
+﻿@model IEnumerable<VisualizzaLog.Models.Connection>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Connessioni Rilevate</h1>
+<div>
+    <h4>Legenda</h4>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <p>Flags: E - expected, S - seen-reply, A - assured, C - confirmed, D - dying, F - fasttrack, s - srcnat, d - dstnat</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Index" method="get">
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="protocol">Protocollo:</label>
+                    <input type="text" class="form-control" id="protocol" name="protocol">
+                </div>
+                <div class="form-group col">
+                    <label for="srcAddress">Indirizzo Sorgente:</label>
+                    <input type="text" class="form-control" id="srcAddress" name="srcAddress">
+                </div>
+                <div class="form-group col">
+                    <label for="srcPort">Porta Sorgente:</label>
+                    <input type="text" class="form-control" id="srcPort" name="srcPort">
+                </div>
+                <div class="form-group col">
+                    <label for="dstAddress">Indirizzo Destinatario:</label>
+                    <input type="text" class="form-control" id="dstAddress" name="dstAddress">
+                </div>
+                <div class="form-group col">
+                    <label for="dstPort">Porta Destinatario:</label>
+                    <input type="text" class="form-control" id="dstPort" name="dstPort">
+                </div>
+                <br />
+                <button type="submit" class="btn btn-primary">Filtra</button>
+                <a class="btn btn-secondary btn-block" href="@Url.Action("Index", "Connections")">Annulla filtri</a>
+                
+            </div>
+        </form>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ConnectionTimestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NatFlag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Protocol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SRCAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SRCPort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DSTAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DSTPort)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TCPState)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConnectionTimestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NatFlag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Protocol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SRCAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SRCPort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DSTAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DSTPort)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TCPState)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

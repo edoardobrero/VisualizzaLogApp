@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS8604: Possibile argomento di riferimento Null.
+dotnet_diagnostic.CS8604.severity = silent

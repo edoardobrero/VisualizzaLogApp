@@ -1,0 +1,44 @@
+﻿@model IEnumerable<VisualizzaLog.Models.Rule>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Regole</h1>
+<br />
+<form asp-action="Create">
+    <p>
+        <input type="submit" value="Crea nuova regola" class="btn btn-primary" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descrizione)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descrizione)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Modifica</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Elimina</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

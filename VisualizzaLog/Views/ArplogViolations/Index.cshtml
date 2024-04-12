@@ -1,0 +1,54 @@
+﻿@model IEnumerable<VisualizzaLog.Models.ArplogViolation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Violazioni Mapping MAC</h1>
+<br />
+<form asp-action="GetViolations" method="post">
+    <p>
+        <input type="submit" value="Verifica violazioni" class="btn btn-primary" />
+    </p>
+</form>
+<form asp-action="Clear">
+    <p>
+        <input type="submit" value="Elimina tutte le violazioni" class="btn btn-primary" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Arplog.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Arplog.MacAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rule)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arplog.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Arplog.MacAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rule.Descrizione)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Elimina</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

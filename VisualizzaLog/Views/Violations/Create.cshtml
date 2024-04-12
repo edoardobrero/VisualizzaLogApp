@@ -1,0 +1,33 @@
+﻿@model VisualizzaLog.Models.Violation
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Violation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ConnectionId" class="control-label"></label>
+                <select asp-for="ConnectionId" class ="form-control" asp-items="ViewBag.ConnectionId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RuleId" class="control-label"></label>
+                <select asp-for="RuleId" class ="form-control" asp-items="ViewBag.RuleId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

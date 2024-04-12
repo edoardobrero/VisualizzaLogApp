@@ -1,0 +1,82 @@
+﻿@model IEnumerable<VisualizzaLog.Models.Arplog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Mapping Indirizzi MAC</h1>
+<div>
+    <h4>Legenda</h4>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            Flags: X - disabled, I - invalid, H - DHCP, D - dynamic, P - published, C - complete
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Index" method="get">
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="Address">IP:</label>
+                    <input type="text" class="form-control" id="Address" name="Address">
+                </div>
+                <div class="form-group col">
+                    <label for="MacAddress">MAC:</label>
+                    <input type="text" class="form-control" id="MacAddress" name="MacAddress">
+                </div>
+                <br />
+                <button type="submit" class="btn btn-primary btn-block">Filtra</button>
+                <a class="btn btn-secondary btn-block" href="@Url.Action("Index", "Arplogs")">Annulla filtri</a>
+            </div>
+        </form>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ArplogTimestamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MacAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Interface)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArplogTimestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MacAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Interface)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Dettagli</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

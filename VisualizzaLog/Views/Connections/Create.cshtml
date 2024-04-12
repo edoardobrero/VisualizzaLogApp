@@ -1,0 +1,73 @@
+﻿@model VisualizzaLog.Models.Connection
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Connections</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ConnectionTimestamp" class="control-label"></label>
+                <input asp-for="ConnectionTimestamp" class="form-control" />
+                <span asp-validation-for="ConnectionTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Flag" class="control-label"></label>
+                <input asp-for="Flag" class="form-control" />
+                <span asp-validation-for="Flag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NatFlag" class="control-label"></label>
+                <input asp-for="NatFlag" class="form-control" />
+                <span asp-validation-for="NatFlag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Protocol" class="control-label"></label>
+                <input asp-for="Protocol" class="form-control" />
+                <span asp-validation-for="Protocol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SRCAddress" class="control-label"></label>
+                <input asp-for="SRCAddress" class="form-control" />
+                <span asp-validation-for="SRCAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SRCPort" class="control-label"></label>
+                <input asp-for="SRCPort" class="form-control" />
+                <span asp-validation-for="SRCPort" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DSTAddress" class="control-label"></label>
+                <input asp-for="DSTAddress" class="form-control" />
+                <span asp-validation-for="DSTAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DSTPort" class="control-label"></label>
+                <input asp-for="DSTPort" class="form-control" />
+                <span asp-validation-for="DSTPort" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TCPState" class="control-label"></label>
+                <input asp-for="TCPState" class="form-control" />
+                <span asp-validation-for="TCPState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
