@@ -14,11 +14,10 @@ namespace VisualizzaLog.Services
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            var dbContext = serviceProvider.GetRequiredService<VisualizzaLogContext>(); 
+            var dbContext = serviceProvider.GetRequiredService<VisualizzaLogContext>();
 
-            var logFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Files");
-            var connectionsFilePath = Path.Combine(logFolderPath, "connections.txt");
-            var arplogFilePath = Path.Combine(logFolderPath, "arplog.txt");
+            var connectionsFilePath = "Services/Files/connections.txt";
+            var arplogFilePath = "Services/Files/arplog.txt";
 
             if (!File.Exists(connectionsFilePath) || !File.Exists(arplogFilePath))
             {

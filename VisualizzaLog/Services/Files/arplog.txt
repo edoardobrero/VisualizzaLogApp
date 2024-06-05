@@ -1,0 +1,603 @@
+# feb/26/2024 13: 2:55 by RouterOS 6.48.2
+# software id = VJPF-75F8
+#
+Flags: X - disabled, I - invalid, H - DHCP, D - dynamic, P - published, 
+C - complete 
+ #    ADDRESS         MAC-ADDRESS       INTERFACE                              
+ 0 DC 192.168.5.9     90:1B:0E:E7:24:9E ether3-Segreteria                      
+ 1 DC 192.168.5.113   50:EB:F6:2C:9A:71 ether3-Segreteria                      
+ 2 DC 192.168.99.99   68:05:CA:2C:A4:41 vlan299-ether2-Management              
+ 3 DC 192.168.99.100  38:68:DD:B7:BC:51 vlan299-ether2-Management              
+ 4 DC 192.168.0.16    00:15:5D:5C:A7:09 ether2-ServerItis                      
+ 5 DC 192.168.5.8     00:15:5D:01:BD:00 ether3-Segreteria                      
+ 6 DC 192.168.99.103  68:05:CA:EE:14:36 vlan299-ether2-Management              
+ 7 DC 89.97.213.97    30:C5:0F:E4:CC:46 ether7-FIBRA-FASTWEB                   
+ 8 DC 10.111.0.50     DC:FE:23:81:F3:06 vlan587-WiFi-Condizionatori            
+ 9 DC 10.50.0.2       90:1B:0E:27:BC:89 bridge-Controllo-MNT                   
+10 DC 10.50.0.56      30:CB:C7:13:02:04 bridge-Controllo-MNT                   
+11 DC 10.50.0.51      30:CB:C7:13:02:2E bridge-Controllo-MNT                   
+12 DC 10.50.0.118     30:CB:C7:14:D2:98 bridge-Controllo-MNT                   
+13 DC 10.50.0.109     BC:E6:7C:AE:AF:41 bridge-Controllo-MNT                   
+14 DC 37.60.35.74     8C:FD:18:4B:F2:14 ether9-FIBRA ISILINE-IPPubblico        
+15 DC 192.168.99.102  68:05:CA:EE:14:1E vlan299-ether2-Management              
+16 DC 10.50.0.90      30:CB:C7:13:42:EA bridge-Controllo-MNT                   
+17 DC 10.50.0.86      30:CB:C7:13:42:26 bridge-Controllo-MNT                   
+18 DC 10.50.0.156     BC:A9:93:A9:9C:0C bridge-Controllo-MNT                   
+19 DC 192.168.0.18    00:15:5D:8A:3D:15 ether2-ServerItis                      
+20 DC 192.168.0.104   00:0C:29:F9:40:5D ether2-ServerItis                      
+21 DC 10.50.0.80      30:CB:C7:13:41:C9 bridge-Controllo-MNT                   
+22 DC 10.111.0.55     DC:FE:23:85:40:D0 vlan587-WiFi-Condizionatori            
+23 DC 10.111.0.59     DC:FE:23:37:C2:AE vlan587-WiFi-Condizionatori            
+24 DC 10.111.0.60     DC:FE:23:39:0D:18 vlan587-WiFi-Condizionatori            
+25 DC 192.168.20.108  00:02:75:F8:19:31 vlan220-ether2-AuleIstituto            
+26 DC 192.168.97.10   A4:AE:12:31:AC:63 ether12-VideoSorvegliaza               
+27 DC 10.50.0.111     30:CB:C7:14:D1:18 bridge-Controllo-MNT                   
+28 DC 10.50.0.170     BC:A9:93:A9:9A:7C bridge-Controllo-MNT                   
+29 DC 192.168.1.254   D4:B1:10:3F:7E:6B ether6-FIBRA-ISILINE-SEGRETERIA        
+30 DC 10.50.0.83      30:CB:C7:14:D1:42 bridge-Controllo-MNT                   
+31 DC 10.50.0.115     30:CB:C7:14:D1:C7 bridge-Controllo-MNT                   
+32 DC 10.50.2.43      30:CB:C7:32:1C:33 bridge-Controllo-MNT                   
+33 DC 10.50.0.50      30:CB:C7:13:01:F3 bridge-Controllo-MNT                   
+34 DC 10.50.0.53      BC:E6:7C:AE:AF:21 bridge-Controllo-MNT                   
+35 DC 192.168.5.234   50:EB:F6:2C:9B:75 ether3-Segreteria                      
+36 DC 192.168.0.10    00:15:5D:8A:3D:14 ether2-ServerItis                      
+37 DC 10.50.0.87      30:CB:C7:01:CD:D9 bridge-Controllo-MNT                   
+38 DC 10.50.0.117     30:CB:C7:14:D1:F0 bridge-Controllo-MNT                   
+39 DC 10.50.0.92      BC:E6:7C:AE:93:81 bridge-Controllo-MNT                   
+40 DC 192.168.99.101  38:68:DD:B7:BA:81 vlan299-ether2-Management              
+41 DC 10.111.0.53     DC:FE:23:85:A6:FA vlan587-WiFi-Condizionatori            
+42 DC 10.50.2.60      BC:A9:93:A9:9B:1E bridge-Controllo-MNT                   
+43 DC 10.50.0.121     BC:A9:93:05:D3:41 bridge-Controllo-MNT                   
+44 DC 10.111.0.54     DC:FE:23:85:C8:10 vlan587-WiFi-Condizionatori            
+45 DC 10.50.0.114     BC:E6:7C:AE:AF:C1 bridge-Controllo-MNT                   
+46 DC 10.50.2.35      BC:A9:93:89:76:69 bridge-Controllo-MNT                   
+47 DC 10.50.0.113     30:CB:C7:14:D1:4F bridge-Controllo-MNT                   
+48 DC 10.50.0.77      30:CB:C7:13:02:2F bridge-Controllo-MNT                   
+49 DC 10.50.0.120     BC:E6:7C:AE:AF:61 bridge-Controllo-MNT                   
+50 DC 192.168.20.115  00:02:75:FC:AF:75 vlan220-ether2-AuleIstituto            
+51 DC 10.50.0.65      BC:E6:7C:AE:AF:81 bridge-Controllo-MNT                   
+52 DC 10.111.0.61     DC:FE:23:39:03:4A vlan587-WiFi-Condizionatori            
+53 DC 10.50.0.67      30:CB:C7:0C:AB:34 bridge-Controllo-MNT                   
+54 DC 10.50.0.66      30:CB:C7:0C:AB:A1 bridge-Controllo-MNT                   
+55 DC 10.50.0.76      30:CB:C7:0C:AB:96 bridge-Controllo-MNT                   
+56 DC 10.111.0.56     DC:FE:23:85:CA:F2 vlan587-WiFi-Condizionatori            
+57 DC 192.168.20.76   00:02:75:FD:67:AE vlan220-ether2-AuleIstituto            
+58 DC 10.50.0.64      BC:E6:7C:AE:92:A1 bridge-Controllo-MNT                   
+59 DC 10.50.0.61      30:CB:C7:0D:05:C8 bridge-Controllo-MNT                   
+60 DC 10.50.0.110     30:CB:C7:14:D1:31 bridge-Controllo-MNT                   
+61 DC 10.50.2.126     30:CB:C7:13:43:2E bridge-Controllo-MNT                   
+62 DC 10.50.0.112     30:CB:C7:14:D1:D9 bridge-Controllo-MNT                   
+63 DC 10.50.0.63      30:CB:C7:0D:05:E0 bridge-Controllo-MNT                   
+64 DC 10.50.0.74      30:CB:C7:0D:04:B1 bridge-Controllo-MNT                   
+65 DC 10.50.2.37      BC:E6:7C:B5:FB:81 bridge-Controllo-MNT                   
+66 DC 10.111.0.57     DC:FE:23:38:E6:4A vlan587-WiFi-Condizionatori            
+67 DC 192.168.0.11    00:15:5D:8A:3D:0E ether2-ServerItis                      
+68 DC 10.50.0.58      30:CB:C7:0D:05:D5 bridge-Controllo-MNT                   
+69 DC 10.50.0.116     30:CB:C7:14:D1:41 bridge-Controllo-MNT                   
+70 DC 10.50.0.68      30:CB:C7:0C:AB:0D bridge-Controllo-MNT                   
+71 DC 10.50.0.59      30:CB:C7:0D:05:F4 bridge-Controllo-MNT                   
+72 DC 192.168.20.116  98:EE:CB:B6:37:A0 vlan220-ether2-AuleIstituto            
+73 DC 10.50.2.38      BC:A9:93:A9:9A:94 bridge-Controllo-MNT                   
+74 DC 192.168.0.12    00:90:A9:D7:4F:45 ether2-ServerItis                      
+75 DC 10.50.0.57      30:CB:C7:01:CD:BE bridge-Controllo-MNT                   
+76 DC 10.111.0.58     DC:FE:23:37:B5:36 vlan587-WiFi-Condizionatori            
+77 D  192.168.253.1                     vlan100-eth1-Internet-ISBlu            
+78 DC 10.50.0.119     30:CB:C7:14:D1:B4 bridge-Controllo-MNT                   
+79 DC 10.50.0.52      30:CB:C7:12:40:69 bridge-Controllo-MNT                   
+80 DC 192.168.11.53   C0:3F:D5:BB:DE:BF vlan211-ether2-SalaInsegnanti          
+81 DC 192.168.6.72    08:BF:B8:12:98:15 vlan206-ether2-Informatica             
+82 DC 192.168.5.7     00:15:5D:01:BD:03 ether3-Segreteria                      
+83 DC 10.50.0.69      48:E6:C0:B7:C0:9D bridge-Controllo-MNT                   
+84 DC 169.254.23.1    08:55:31:F6:63:DB ether8                                 
+85 DC 192.168.3.68    D0:37:45:EA:57:34 vlan203-ether2-Chimica                 
+86 DC 10.210.0.247    B0:7D:64:83:E8:16 vlan210-ether1-WiFi-PVT                
+87 DC 10.50.0.62      30:CB:C7:0D:04:BA bridge-Controllo-MNT                   
+88 DC 10.50.0.155     BC:E6:7C:B5:FC:41 bridge-Controllo-MNT                   
+89 DC 192.168.11.52   C0:3F:D5:BC:5A:C0 vlan211-ether2-SalaInsegnanti          
+90 DC 192.168.5.121   98:EE:CB:9B:4D:3B ether3-Segreteria                      
+91 DC 192.168.5.101   94:C6:91:63:16:B9 ether3-Segreteria                      
+92 DC 192.168.5.198   94:C6:91:63:14:D8 ether3-Segreteria                      
+93 DC 192.168.5.204   94:C6:91:63:15:6E ether3-Segreteria                      
+94 DC 192.168.3.50    BC:EE:7B:78:BE:C6 vlan203-ether2-Chimica                 
+95 DC 192.168.20.89   98:EE:CB:B6:1F:83 vlan220-ether2-AuleIstituto            
+96 DC 192.168.7.141   C0:3F:D5:F5:B6:AF vlan207-ether2-BiennioMM!              
+97 DC 192.168.20.125  08:97:98:8E:3A:5B vlan220-ether2-AuleIstituto            
+98 D  192.168.20.101  F4:4D:30:94:A2:9E vlan220-ether2-AuleIstituto            
+99 DC 192.168.9.87    3C:E9:F7:D5:63:0D vlan209-ether1-WiFi-Dom                
+100 DC 192.168.4.69    98:EE:CB:F6:70:C0 vlan204-ether2-Elettrotecnica          
+101 DC 192.168.5.246   1C:69:7A:37:6C:8D ether3-Segreteria                      
+102 DC 192.168.5.103   94:C6:91:60:64:D0 ether3-Segreteria                      
+103 DC 192.168.6.122   B8:AE:ED:31:37:F9 vlan206-ether2-Informatica             
+104 DC 192.168.7.173   C0:3F:D5:F5:B4:A6 vlan207-ether2-BiennioMM!              
+105 DC 192.168.5.107   94:C6:91:63:16:27 ether3-Segreteria                      
+106 DC 192.168.5.247   1C:69:7A:35:72:56 ether3-Segreteria                      
+107 DC 192.168.9.55    3E:B1:C8:39:F3:47 vlan209-ether1-WiFi-Dom                
+108 DC 192.168.5.163   94:C6:91:63:16:D3 ether3-Segreteria                      
+109 DC 192.168.20.124  98:EE:CB:B6:37:2A vlan220-ether2-AuleIstituto            
+110 DC 192.168.3.63    98:EE:CB:B6:1D:01 vlan203-ether2-Chimica                 
+111 DC 192.168.6.56    C0:3F:D5:F1:38:D6 vlan206-ether2-Informatica             
+112 D  10.210.0.14     98:43:FA:D7:38:27 vlan210-ether1-WiFi-PVT                
+113 DC 192.168.20.105  00:02:75:EF:8D:AE vlan220-ether2-AuleIstituto            
+114 DC 192.168.20.102  2C:F0:5D:C8:B1:91 vlan220-ether2-AuleIstituto            
+115 DC 192.168.7.144   F4:4D:30:45:76:7E vlan207-ether2-BiennioMM!              
+116 DC 192.168.4.60    C0:3F:D5:BC:81:1A vlan204-ether2-Elettrotecnica          
+117 DC 192.168.6.126   C0:3F:D5:5A:D3:A4 vlan206-ether2-Informatica             
+118 DC 192.168.3.58    F4:4D:30:94:A2:01 vlan203-ether2-Chimica                 
+119 DC 192.168.20.118  F4:4D:30:94:A1:80 vlan220-ether2-AuleIstituto            
+120 DC 192.168.4.50    D4:C9:EF:DB:AB:B6 vlan204-ether2-Elettrotecnica          
+121 DC 192.168.20.92   F4:4D:30:94:A1:81 vlan220-ether2-AuleIstituto            
+122 DC 192.168.20.25   00:02:75:FC:6A:C9 vlan220-ether2-AuleIstituto            
+123 DC 192.168.20.84   00:02:75:FD:65:86 vlan220-ether2-AuleIstituto            
+124 DC 192.168.20.68   98:EE:CB:B6:1D:C7 vlan220-ether2-AuleIstituto            
+125 DC 192.168.3.65    00:30:18:C8:B0:9C vlan203-ether2-Chimica                 
+126 DC 192.168.6.102   B8:AE:ED:31:39:AD vlan206-ether2-Informatica             
+127 DC 192.168.2.75    F4:4D:30:94:A1:88 vlan202-ether2-Meccanici               
+128 DC 192.168.20.74   F4:4D:30:94:A1:8A vlan220-ether2-AuleIstituto            
+129 DC 192.168.20.24   00:02:75:FD:6C:FB vlan220-ether2-AuleIstituto            
+130 DC 10.210.0.149    E8:D0:FC:5D:D8:A5 vlan210-ether1-WiFi-PVT                
+131 DC 192.168.7.146   F4:4D:30:45:7A:75 vlan207-ether2-BiennioMM!              
+132 DC 192.168.20.119  F4:4D:30:94:A2:90 vlan220-ether2-AuleIstituto            
+133 DC 192.168.20.106  98:EE:CB:B6:20:58 vlan220-ether2-AuleIstituto            
+134 DC 192.168.7.156   F4:4D:30:45:7C:C8 vlan207-ether2-BiennioMM!              
+135 DC 192.168.20.65   98:EE:CB:B6:1F:8F vlan220-ether2-AuleIstituto            
+136 DC 10.210.0.41     AC:19:8E:BE:F5:FA vlan210-ether1-WiFi-PVT                
+137 DC 192.168.20.87   98:EE:CB:B6:1D:E8 vlan220-ether2-AuleIstituto            
+138 DC 10.210.0.13     7C:B5:66:B3:18:B1 vlan210-ether1-WiFi-PVT                
+139 DC 10.210.0.16     E4:AA:EA:5D:43:5D vlan210-ether1-WiFi-PVT                
+140 DC 192.168.20.112  98:EE:CB:B6:1D:D8 vlan220-ether2-AuleIstituto            
+141 DC 192.168.8.52    F4:4D:30:94:9F:9B vlan208-ether2-Pale-AV-Fis             
+142 D  192.168.20.53   98:EE:CB:B6:37:68 vlan220-ether2-AuleIstituto            
+143 D  10.210.0.100    60:E9:AA:2D:01:73 vlan210-ether1-WiFi-PVT                
+144 DC 192.168.3.52    D4:3D:7E:AA:64:8A vlan203-ether2-Chimica                 
+145 DC 192.168.7.76    98:EE:CB:A1:F7:FB vlan207-ether2-BiennioMM!              
+146 D  10.210.0.46     90:E8:68:86:CC:B1 vlan210-ether1-WiFi-PVT                
+147 DC 192.168.20.142  98:EE:CB:D1:03:0D vlan220-ether2-AuleIstituto            
+148 DC 192.168.20.145  98:EE:CB:A1:F9:13 vlan220-ether2-AuleIstituto            
+149 DC 192.168.6.203   08:55:31:F6:63:D5 vlan206-ether2-Informatica             
+150 DC 192.168.4.158   54:04:A6:68:A8:F6 vlan204-ether2-Elettrotecnica          
+151 DC 192.168.20.55   98:EE:CB:B6:36:AB vlan220-ether2-AuleIstituto            
+152 DC 10.210.0.18     A0:A8:CD:CA:63:F4 vlan210-ether1-WiFi-PVT                
+153 DC 10.210.0.95     44:AF:28:73:BA:31 vlan210-ether1-WiFi-PVT                
+154 DC 192.168.20.71   98:EE:CB:B6:20:34 vlan220-ether2-AuleIstituto            
+155 DC 192.168.20.81   98:EE:CB:B6:37:A5 vlan220-ether2-AuleIstituto            
+156 DC 192.168.20.62   00:02:75:FC:60:82 vlan220-ether2-AuleIstituto            
+157 DC 192.168.20.86   98:EE:CB:B6:36:FD vlan220-ether2-AuleIstituto            
+158 DC 192.168.20.98   00:02:75:FC:A9:E8 vlan220-ether2-AuleIstituto            
+159 D  192.168.20.181  98:EE:CB:B6:1F:35 vlan220-ether2-AuleIstituto            
+160 DC 192.168.20.22   00:02:75:FD:66:8D vlan220-ether2-AuleIstituto            
+161 DC 10.210.0.37     E8:FB:1C:5E:3C:27 vlan210-ether1-WiFi-PVT                
+162 DC 10.210.0.32     B0:BE:83:67:95:40 vlan210-ether1-WiFi-PVT                
+163 DC 192.168.7.75    98:EE:CB:A1:F9:4B vlan207-ether2-BiennioMM!              
+164 DC 192.168.2.64    08:BF:B8:12:98:12 vlan202-ether2-Meccanici               
+165 D  192.168.20.90   98:EE:CB:B6:38:04 vlan220-ether2-AuleIstituto            
+166 DC 10.210.0.24     C8:34:8E:08:5D:E5 vlan210-ether1-WiFi-PVT                
+167 DC 192.168.20.131  00:02:75:EA:79:63 vlan220-ether2-AuleIstituto            
+168 DC 192.168.20.91   F4:4D:30:93:09:1A vlan220-ether2-AuleIstituto            
+169 DC 10.210.0.83     E0:2B:E9:59:39:D6 vlan210-ether1-WiFi-PVT                
+170 DC 192.168.20.75   00:02:75:FC:85:F6 vlan220-ether2-AuleIstituto            
+171 DC 10.210.0.27     10:BD:3A:81:1E:F4 vlan210-ether1-WiFi-PVT                
+172 D  10.210.0.36     E8:D0:FC:B9:23:0F vlan210-ether1-WiFi-PVT                
+173 DC 192.168.20.79   98:EE:CB:B5:A9:13 vlan220-ether2-AuleIstituto            
+174 DC 192.168.5.250   50:EB:F6:2C:9D:B3 ether3-Segreteria                      
+175 DC 10.210.0.69     DC:F5:05:2B:68:97 vlan210-ether1-WiFi-PVT                
+176 DC 192.168.7.145   F4:4D:30:45:79:E3 vlan207-ether2-BiennioMM!              
+177 D  10.210.0.29     DC:41:A9:2D:A2:D5 vlan210-ether1-WiFi-PVT                
+178 DC 10.210.0.31     CC:F9:E4:E7:A1:B2 vlan210-ether1-WiFi-PVT                
+179 DC 10.210.0.73     E0:0A:F6:47:59:CF vlan210-ether1-WiFi-PVT                
+180 DC 192.168.7.176   F4:4D:30:45:79:08 vlan207-ether2-BiennioMM!              
+181 DC 10.210.0.39     10:B1:DF:84:D3:FB vlan210-ether1-WiFi-PVT                
+182 DC 192.168.7.158   F4:4D:30:45:7A:FE vlan207-ether2-BiennioMM!              
+183 DC 192.168.7.175   F4:4D:30:40:98:D9 vlan207-ether2-BiennioMM!              
+184 DC 10.210.0.42     34:6F:24:E8:7D:07 vlan210-ether1-WiFi-PVT                
+185 D  10.210.0.115    E8:FB:1C:48:EC:FF vlan210-ether1-WiFi-PVT                
+186 DC 10.210.0.45     10:6F:D9:C3:4C:95 vlan210-ether1-WiFi-PVT                
+187 DC 10.210.0.44     E0:2E:0B:9E:08:F9 vlan210-ether1-WiFi-PVT                
+188 DC 10.210.0.47     40:23:43:B5:FF:1D vlan210-ether1-WiFi-PVT                
+189 DC 10.210.0.49     F4:A4:75:4C:07:C5 vlan210-ether1-WiFi-PVT                
+190 DC 10.210.0.53     70:A8:D3:DA:43:4B vlan210-ether1-WiFi-PVT                
+191 D  10.210.0.232    A8:42:A1:5A:1D:0F vlan210-ether1-WiFi-PVT                
+192 DC 10.210.0.56     EC:2E:98:31:4E:DB vlan210-ether1-WiFi-PVT                
+193 DC 10.210.0.140    BC:F1:71:ED:24:75 vlan210-ether1-WiFi-PVT                
+194 D  192.168.20.70   08:97:98:97:83:D8 vlan220-ether2-AuleIstituto            
+195 DC 10.210.0.57     A0:29:42:7D:1D:F1 vlan210-ether1-WiFi-PVT                
+196 DC 192.168.7.159   F4:4D:30:91:8B:01 vlan207-ether2-BiennioMM!              
+197 DC 10.210.0.61     D0:AB:D5:03:65:BF vlan210-ether1-WiFi-PVT                
+198 D  192.168.20.127  60:63:4C:15:63:F4 vlan220-ether2-AuleIstituto            
+199 DC 10.210.0.63     C0:3C:59:B9:EC:E5 vlan210-ether1-WiFi-PVT                
+200 DC 192.168.7.183   B8:AE:ED:BF:8E:BB vlan207-ether2-BiennioMM!              
+201 DC 192.168.3.54    98:EE:CB:B5:19:52 vlan203-ether2-Chimica                 
+202 DC 192.168.20.20   00:02:75:FC:D5:9F vlan220-ether2-AuleIstituto            
+203 DC 10.210.0.67     34:7D:F6:5A:6C:7A vlan210-ether1-WiFi-PVT                
+204 DC 192.168.3.56    00:02:75:FC:6A:C8 vlan203-ether2-Chimica                 
+205 DC 10.210.0.74     F0:A6:54:C2:D5:1B vlan210-ether1-WiFi-PVT                
+206 DC 10.210.0.76     C4:75:AB:1F:1E:1D vlan210-ether1-WiFi-PVT                
+207 D  10.210.0.77     D8:12:65:D1:CA:4D vlan210-ether1-WiFi-PVT                
+208 DC 10.210.0.80     40:5B:D8:C8:E3:F7 vlan210-ether1-WiFi-PVT                
+209 DC 10.210.0.86     78:AF:08:D8:24:62 vlan210-ether1-WiFi-PVT                
+210 D  192.168.1.76                      ether6-FIBRA-ISILINE-SEGRETERIA        
+211 DC 10.210.0.109    D4:1B:81:0E:61:65 vlan210-ether1-WiFi-PVT                
+212 DC 192.168.7.153   F4:4D:30:45:82:13 vlan207-ether2-BiennioMM!              
+213 DC 10.210.0.110    C0:3C:59:2A:5E:54 vlan210-ether1-WiFi-PVT                
+214 DC 192.168.20.83   98:EE:CB:B6:38:05 vlan220-ether2-AuleIstituto            
+215 DC 10.210.0.62     66:1D:13:ED:D8:D0 vlan210-ether1-WiFi-PVT                
+216 DC 192.168.3.59    F4:4D:30:94:A1:A6 vlan203-ether2-Chimica                 
+217 DC 192.168.6.206   08:55:31:F6:63:D5 vlan206-ether2-Informatica             
+218 DC 192.168.7.184   F4:4D:30:40:9C:10 vlan207-ether2-BiennioMM!              
+219 DC 192.168.7.155   F4:4D:30:45:76:B3 vlan207-ether2-BiennioMM!              
+220 DC 192.168.6.131   C0:3F:D5:F5:B6:66 vlan206-ether2-Informatica             
+221 DC 192.168.5.114   F4:4D:30:07:AF:D7 ether3-Segreteria                      
+222 DC 192.168.20.170  08:97:98:8E:3B:E4 vlan220-ether2-AuleIstituto            
+223 DC 192.168.7.140   C0:3F:D5:F5:B9:32 vlan207-ether2-BiennioMM!              
+224 D  192.168.20.148  F4:4D:30:45:7C:37 vlan220-ether2-AuleIstituto            
+225 DC 10.210.0.33     04:CF:4B:2F:00:0D vlan210-ether1-WiFi-PVT                
+226 DC 192.168.20.77   98:EE:CB:B6:1F:7E vlan220-ether2-AuleIstituto            
+227 DC 192.168.20.120  00:02:75:FC:5D:BF vlan220-ether2-AuleIstituto            
+228 DC 192.168.2.94    08:BF:B8:85:CD:23 vlan202-ether2-Meccanici               
+229 D  192.168.20.147  98:EE:CB:B6:1D:75 vlan220-ether2-AuleIstituto            
+230 DC 192.168.2.112   E8:9C:25:6A:D5:E4 vlan202-ether2-Meccanici               
+231 DC 192.168.7.59    98:EE:CB:A1:F7:D7 vlan207-ether2-BiennioMM!              
+232 DC 10.210.0.144    AC:67:5D:FF:B6:67 vlan210-ether1-WiFi-PVT                
+233 DC 192.168.7.138   C0:3F:D5:F5:B9:14 vlan207-ether2-BiennioMM!              
+234 D  192.168.20.135  90:1B:0E:91:6D:58 vlan220-ether2-AuleIstituto            
+235 DC 192.168.7.58    98:EE:CB:A1:F9:43 vlan207-ether2-BiennioMM!              
+236 DC 192.168.5.115   F4:4D:30:40:2C:2E ether3-Segreteria                      
+237 DC 192.168.20.66   98:EE:CB:B6:1F:48 vlan220-ether2-AuleIstituto            
+238 DC 10.210.0.128    00:E9:3A:27:BB:2D vlan210-ether1-WiFi-PVT                
+239 DC 10.210.0.131    48:5F:99:26:56:D7 vlan210-ether1-WiFi-PVT                
+240 DC 192.168.2.76    F4:4D:30:94:9F:93 vlan202-ether2-Meccanici               
+241 DC 192.168.2.110   E8:9C:25:6A:D5:8E vlan202-ether2-Meccanici               
+242 DC 192.168.2.113   E8:9C:25:6A:D7:BF vlan202-ether2-Meccanici               
+243 D  10.210.0.137    10:68:38:49:98:6B vlan210-ether1-WiFi-PVT                
+244 DC 10.210.0.28     34:23:87:B8:49:91 vlan210-ether1-WiFi-PVT                
+245 DC 10.210.0.142    B4:B5:B6:AC:73:2B vlan210-ether1-WiFi-PVT                
+246 DC 192.168.9.77    48:E7:DA:D0:83:C5 vlan209-ether1-WiFi-Dom                
+247 DC 10.210.0.141    B0:DC:EF:6A:BD:CD vlan210-ether1-WiFi-PVT                
+248 DC 192.168.20.54   00:02:75:E5:78:82 vlan220-ether2-AuleIstituto            
+249 DC 192.168.9.85    0C:0E:76:20:77:D5 vlan209-ether1-WiFi-Dom                
+250 D  192.168.20.95   98:EE:CB:B6:1D:76 vlan220-ether2-AuleIstituto            
+251 DC 192.168.20.94   98:EE:CB:A1:F7:E2 vlan220-ether2-AuleIstituto            
+252 DC 192.168.9.98    FA:51:95:82:10:6D vlan209-ether1-WiFi-Dom                
+253 DC 192.168.20.61   A0:36:BC:A9:03:B1 vlan220-ether2-AuleIstituto            
+254 DC 10.210.0.118    50:ED:3C:06:F3:52 vlan210-ether1-WiFi-PVT                
+255 DC 192.168.6.63    98:EE:CB:9B:76:46 vlan206-ether2-Informatica             
+256 DC 10.210.0.145    B0:FC:36:1C:8E:E9 vlan210-ether1-WiFi-PVT                
+257 DC 10.210.0.23     10:BD:3A:81:1E:F4 vlan210-ether1-WiFi-PVT                
+258 DC 10.210.0.206    04:CF:4B:AC:C3:8F vlan210-ether1-WiFi-PVT                
+259 DC 192.168.7.136   C0:3F:D5:F5:B5:A1 vlan207-ether2-BiennioMM!              
+260 DC 192.168.20.166  88:A4:C2:11:A8:E3 vlan220-ether2-AuleIstituto            
+261 DC 192.168.2.53    C0:3F:D5:FA:2F:24 vlan202-ether2-Meccanici               
+262 DC 192.168.20.27   00:02:75:FC:6A:80 vlan220-ether2-AuleIstituto            
+263 DC 192.168.20.146  48:2A:E3:6B:72:E7 vlan220-ether2-AuleIstituto            
+264 DC 10.210.0.82     C4:BD:E5:94:ED:A0 vlan210-ether1-WiFi-PVT                
+265 D  192.168.5.116   54:AB:3A:9A:99:AD ether3-Segreteria                      
+266 DC 192.168.6.50    08:BF:B8:12:98:8E vlan206-ether2-Informatica             
+267 DC 10.210.0.150    80:B6:55:1B:A5:71 vlan210-ether1-WiFi-PVT                
+268 D  10.210.0.151    A4:97:B1:7E:91:09 vlan210-ether1-WiFi-PVT                
+269 DC 10.210.0.94     4C:D5:77:20:8A:1F vlan210-ether1-WiFi-PVT                
+270 DC 192.168.6.81    F4:4D:30:45:76:85 vlan206-ether2-Informatica             
+271 DC 192.168.20.136  1C:69:7A:68:A5:44 vlan220-ether2-AuleIstituto            
+272 DC 10.210.0.157    10:68:38:54:27:B9 vlan210-ether1-WiFi-PVT                
+273 DC 192.168.7.152   F4:4D:30:45:82:11 vlan207-ether2-BiennioMM!              
+274 DC 10.210.0.161    14:D4:24:EC:35:BB vlan210-ether1-WiFi-PVT                
+275 DC 10.210.0.163    28:C2:DD:C3:65:AD vlan210-ether1-WiFi-PVT                
+276 DC 10.210.0.158    78:AF:08:D7:5D:84 vlan210-ether1-WiFi-PVT                
+277 DC 10.210.0.99     80:30:49:39:B1:C1 vlan210-ether1-WiFi-PVT                
+278 D  10.210.0.97     D0:53:49:C0:09:29 vlan210-ether1-WiFi-PVT                
+279 DC 10.210.0.165    70:C9:4E:BF:AA:97 vlan210-ether1-WiFi-PVT                
+280 DC 10.210.0.166    E4:AA:EA:E1:09:3D vlan210-ether1-WiFi-PVT                
+281 D  192.168.1.120                     ether6-FIBRA-ISILINE-SEGRETERIA        
+282 D  10.210.0.235    50:5A:65:FC:03:01 vlan210-ether1-WiFi-PVT                
+283 D  192.168.20.52   B8:AE:ED:BC:90:7E vlan220-ether2-AuleIstituto            
+284 DC 192.168.7.65    98:EE:CB:A1:F7:E1 vlan207-ether2-BiennioMM!              
+285 DC 192.168.20.132  98:EE:CB:B6:1C:A4 vlan220-ether2-AuleIstituto            
+286 DC 192.168.11.50   C0:3F:D5:BC:7F:85 vlan211-ether2-SalaInsegnanti          
+287 DC 192.168.3.60    E8:40:F2:F8:02:F2 vlan203-ether2-Chimica                 
+288 DC 192.168.9.73    F8:E4:E3:BE:F3:20 vlan209-ether1-WiFi-Dom                
+289 D  10.210.0.172    50:5B:C2:F3:EA:71 vlan210-ether1-WiFi-PVT                
+290 DC 192.168.7.150   F4:4D:30:45:7B:B7 vlan207-ether2-BiennioMM!              
+291 DC 10.50.2.28      74:DA:88:62:F1:BD bridge-Controllo-MNT                   
+292 D  192.168.0.13                      ether2-ServerItis                      
+293 DC 192.168.7.174   F4:4D:30:45:80:73 vlan207-ether2-BiennioMM!              
+294 DC 192.168.20.144  00:02:75:FC:66:4E vlan220-ether2-AuleIstituto            
+295 DC 10.210.0.85     3C:A0:67:90:E3:8F vlan210-ether1-WiFi-PVT                
+296 DC 192.168.2.120   88:AE:DD:5E:49:FF vlan202-ether2-Meccanici               
+297 DC 10.210.0.143    14:7D:DA:6A:C8:AA vlan210-ether1-WiFi-PVT                
+298 DC 192.168.20.137  98:EE:CB:F8:20:34 vlan220-ether2-AuleIstituto            
+299 DC 10.210.0.121    94:08:53:6B:9E:AB vlan210-ether1-WiFi-PVT                
+300 DC 192.168.7.151   F4:4D:30:45:7A:72 vlan207-ether2-BiennioMM!              
+301 DC 10.210.0.51     C4:BD:E5:A7:8F:5A vlan210-ether1-WiFi-PVT                
+302 D  192.168.9.71    F0:6E:0B:CE:87:9C vlan209-ether1-WiFi-Dom                
+303 DC 192.168.20.126  F4:4D:30:94:A1:99 vlan220-ether2-AuleIstituto            
+304 DC 192.168.6.54    B8:AE:ED:31:3C:E6 vlan206-ether2-Informatica             
+305 DC 192.168.20.29   00:02:75:FC:AF:46 vlan220-ether2-AuleIstituto            
+306 DC 192.168.6.65    B8:AE:ED:31:3D:35 vlan206-ether2-Informatica             
+307 DC 10.210.0.103    78:AF:08:12:C5:A5 vlan210-ether1-WiFi-PVT                
+308 DC 192.168.2.119   E8:9C:25:6A:D7:83 vlan202-ether2-Meccanici               
+309 DC 192.168.7.78    98:EE:CB:A1:F7:CA vlan207-ether2-BiennioMM!              
+310 D  192.168.20.103  F4:4D:30:94:A2:3C vlan220-ether2-AuleIstituto            
+311 DC 192.168.20.78   2C:F0:5D:C8:B1:D8 vlan220-ether2-AuleIstituto            
+312 DC 192.168.9.88    50:5B:C2:83:1D:A5 vlan209-ether1-WiFi-Dom                
+313 DC 192.168.20.140  08:97:98:8E:39:33 vlan220-ether2-AuleIstituto            
+314 DC 192.168.6.141   B8:AE:ED:31:38:DD vlan206-ether2-Informatica             
+315 DC 192.168.20.59   00:02:75:EA:7B:99 vlan220-ether2-AuleIstituto            
+316 DC 192.168.7.62    98:EE:CB:A1:F8:9A vlan207-ether2-BiennioMM!              
+317 DC 192.168.7.74    98:EE:CB:A1:F7:D0 vlan207-ether2-BiennioMM!              
+318 DC 192.168.7.63    98:EE:CB:A1:F9:40 vlan207-ether2-BiennioMM!              
+319 DC 192.168.20.73   F4:4D:30:94:A1:9C vlan220-ether2-AuleIstituto            
+320 DC 10.210.0.90     18:47:3D:55:C4:9F vlan210-ether1-WiFi-PVT                
+321 DC 10.210.0.59     20:16:B9:43:67:FA vlan210-ether1-WiFi-PVT                
+322 DC 10.210.0.78     84:7B:57:D1:05:74 vlan210-ether1-WiFi-PVT                
+323 DC 10.210.0.169    C4:9D:ED:B2:C3:2C vlan210-ether1-WiFi-PVT                
+324 DC 192.168.7.64    98:EE:CB:9B:4B:8F vlan207-ether2-BiennioMM!              
+325 DC 192.168.7.83    98:EE:CB:9B:4B:93 vlan207-ether2-BiennioMM!              
+326 DC 192.168.6.143   98:EE:CB:9B:73:25 vlan206-ether2-Informatica             
+327 DC 192.168.7.56    98:EE:CB:9B:4A:FF vlan207-ether2-BiennioMM!              
+328 DC 192.168.20.72   2C:F0:5D:CA:59:A9 vlan220-ether2-AuleIstituto            
+329 DC 10.210.0.84     F8:34:41:36:66:77 vlan210-ether1-WiFi-PVT                
+330 DC 192.168.6.53    B8:AE:ED:31:36:7A vlan206-ether2-Informatica             
+331 DC 192.168.6.142   B8:AE:ED:31:37:7D vlan206-ether2-Informatica             
+332 DC 10.210.0.167    F8:28:19:84:4A:9F vlan210-ether1-WiFi-PVT                
+333 DC 10.210.0.87     50:84:92:84:4F:A4 vlan210-ether1-WiFi-PVT                
+334 DC 192.168.6.117   B8:AE:ED:31:37:DB vlan206-ether2-Informatica             
+335 DC 192.168.6.51    B8:AE:ED:31:36:BA vlan206-ether2-Informatica             
+336 DC 192.168.6.98    B8:AE:ED:31:36:A8 vlan206-ether2-Informatica             
+337 DC 192.168.3.53    00:02:75:E5:78:80 vlan203-ether2-Chimica                 
+338 DC 192.168.6.58    98:EE:CB:A1:F8:49 vlan206-ether2-Informatica             
+339 DC 192.168.20.50   00:02:75:EA:7C:C7 vlan220-ether2-AuleIstituto            
+340 DC 192.168.7.179   B8:AE:ED:BF:92:AA vlan207-ether2-BiennioMM!              
+341 DC 192.168.2.78    2C:F0:5D:C8:B1:95 vlan202-ether2-Meccanici               
+342 DC 192.168.7.160   F4:4D:30:40:95:B3 vlan207-ether2-BiennioMM!              
+343 DC 10.210.0.50     30:D1:6B:8D:55:8B vlan210-ether1-WiFi-PVT                
+344 DC 10.210.0.160    9C:2F:9D:63:BB:DF vlan210-ether1-WiFi-PVT                
+345 DC 10.210.0.217    00:E9:3A:3B:C1:AF vlan210-ether1-WiFi-PVT                
+346 DC 192.168.6.79    B8:AE:ED:31:39:7C vlan206-ether2-Informatica             
+347 DC 10.210.0.91     00:93:37:B2:FE:3F vlan210-ether1-WiFi-PVT                
+348 DC 10.210.0.123    F0:A6:54:9E:2D:65 vlan210-ether1-WiFi-PVT                
+349 DC 192.168.7.149   F4:4D:30:45:77:46 vlan207-ether2-BiennioMM!              
+350 DC 192.168.6.52    B8:AE:ED:31:3C:29 vlan206-ether2-Informatica             
+351 DC 10.210.0.21     8C:85:90:BE:B7:9F vlan210-ether1-WiFi-PVT                
+352 D  10.210.0.175    18:47:3D:B3:BD:FD vlan210-ether1-WiFi-PVT                
+353 DC 10.210.0.174    44:AF:28:17:6B:55 vlan210-ether1-WiFi-PVT                
+354 D  192.168.1.115                     ether6-FIBRA-ISILINE-SEGRETERIA        
+355 D  192.168.1.105                     ether6-FIBRA-ISILINE-SEGRETERIA        
+356 D  192.168.20.129                    vlan220-ether2-AuleIstituto            
+357 D  192.168.1.107                     ether6-FIBRA-ISILINE-SEGRETERIA        
+358 D  192.168.1.110                     ether6-FIBRA-ISILINE-SEGRETERIA        
+359 D  192.168.1.129                     ether6-FIBRA-ISILINE-SEGRETERIA        
+360 D  192.168.1.116                     ether6-FIBRA-ISILINE-SEGRETERIA        
+361 D  192.168.1.119                     ether6-FIBRA-ISILINE-SEGRETERIA        
+362 D  192.168.1.134                     ether6-FIBRA-ISILINE-SEGRETERIA        
+363 D  192.168.1.121                     ether6-FIBRA-ISILINE-SEGRETERIA        
+364 D  192.168.1.124                     ether6-FIBRA-ISILINE-SEGRETERIA        
+365 D  192.168.1.127                     ether6-FIBRA-ISILINE-SEGRETERIA        
+366 D  192.168.1.130                     ether6-FIBRA-ISILINE-SEGRETERIA        
+367 D  192.168.1.126                     ether6-FIBRA-ISILINE-SEGRETERIA        
+368 DC 192.168.7.148   F4:4D:30:45:77:5E vlan207-ether2-BiennioMM!              
+369 DC 10.210.0.89     80:30:49:13:5A:EB vlan210-ether1-WiFi-PVT                
+370 DC 192.168.7.147   F4:4D:30:9A:25:82 vlan207-ether2-BiennioMM!              
+371 DC 192.168.20.141  00:02:75:EA:7C:51 vlan220-ether2-AuleIstituto            
+372 DC 192.168.6.132   B8:AE:ED:31:3D:66 vlan206-ether2-Informatica             
+373 DC 10.210.0.40     10:6F:D9:58:6B:15 vlan210-ether1-WiFi-PVT                
+374 DC 10.210.0.105    B0:7D:64:BF:33:03 vlan210-ether1-WiFi-PVT                
+375 D  10.210.0.180    E8:F4:08:38:D6:14 vlan210-ether1-WiFi-PVT                
+376 DC 192.168.9.86    7A:4A:AF:C1:DD:C3 vlan209-ether1-WiFi-Dom                
+377 DC 10.210.0.30     FE:B6:E2:C9:9E:23 vlan210-ether1-WiFi-PVT                
+378 DC 10.210.0.60     EC:2E:98:06:CC:6B vlan210-ether1-WiFi-PVT                
+379 D  192.168.1.106                     ether6-FIBRA-ISILINE-SEGRETERIA        
+380 DC 10.210.0.132    20:C1:9B:77:CB:58 vlan210-ether1-WiFi-PVT                
+381 DC 10.210.0.68     78:AF:08:12:25:A5 vlan210-ether1-WiFi-PVT                
+382 DC 10.210.0.138    10:63:C8:57:85:05 vlan210-ether1-WiFi-PVT                
+383 DC 10.210.0.101    60:E9:AA:A7:05:8B vlan210-ether1-WiFi-PVT                
+384 DC 10.210.0.122    58:CE:2A:67:37:70 vlan210-ether1-WiFi-PVT                
+385 DC 10.210.0.96     20:2B:20:1A:30:C3 vlan210-ether1-WiFi-PVT                
+386 DC 10.210.0.126    D0:39:57:76:E9:6F vlan210-ether1-WiFi-PVT                
+387 DC 192.168.20.60   98:EE:CB:B6:1F:07 vlan220-ether2-AuleIstituto            
+388 DC 192.168.9.65    AA:16:1A:33:B8:5D vlan209-ether1-WiFi-Dom                
+389 DC 192.168.9.62    1C:91:80:BD:68:6E vlan209-ether1-WiFi-Dom                
+390 DC 10.210.0.72     98:2C:BC:11:16:8D vlan210-ether1-WiFi-PVT                
+391 DC 10.210.0.164    B0:35:9F:74:7C:0A vlan210-ether1-WiFi-PVT                
+392 DC 10.210.0.113    00:45:E2:3D:70:47 vlan210-ether1-WiFi-PVT                
+393 DC 10.210.0.34     9C:FC:E8:8B:AC:13 vlan210-ether1-WiFi-PVT                
+394 DC 10.210.0.129    90:E8:68:81:D9:85 vlan210-ether1-WiFi-PVT                
+395 D  192.168.9.84                      vlan209-ether1-WiFi-Dom                
+396 DC 10.210.0.65     98:22:EF:7B:79:8B vlan210-ether1-WiFi-PVT                
+397 DC 10.210.0.58     F8:16:54:CC:2C:66 vlan210-ether1-WiFi-PVT                
+398 DC 10.210.0.124    8A:A6:A6:01:B2:3D vlan210-ether1-WiFi-PVT                
+399 DC 10.210.0.130    78:92:9C:93:9C:24 vlan210-ether1-WiFi-PVT                
+400 DC 10.210.0.104    00:45:E2:5F:8A:7F vlan210-ether1-WiFi-PVT                
+401 DC 10.210.0.185    EC:2E:98:C2:F6:4D vlan210-ether1-WiFi-PVT                
+402 DC 10.210.0.107    1C:BF:C0:0B:F0:39 vlan210-ether1-WiFi-PVT                
+403 DC 10.210.0.136    14:4F:8A:69:13:24 vlan210-ether1-WiFi-PVT                
+404 DC 10.210.0.139    EC:2E:98:BA:C2:0B vlan210-ether1-WiFi-PVT                
+405 DC 10.210.0.155    10:02:B5:15:20:6B vlan210-ether1-WiFi-PVT                
+406 DC 10.210.0.184    1C:BF:C0:9B:EF:55 vlan210-ether1-WiFi-PVT                
+407 DC 10.210.0.183    F0:9E:4A:DF:4E:04 vlan210-ether1-WiFi-PVT                
+408 DC 10.50.3.2       74:83:C2:83:67:A2 bridge-Controllo-MNT                   
+409 D  192.168.20.63   00:02:75:FD:64:00 vlan220-ether2-AuleIstituto            
+410 DC 192.168.6.96    98:EE:CB:9B:76:47 vlan206-ether2-Informatica             
+411 DC 192.168.20.114  F4:4D:30:94:A2:23 vlan220-ether2-AuleIstituto            
+412 DC 192.168.9.74    50:5B:C2:F3:E8:B7 vlan209-ether1-WiFi-Dom                
+413 DC 192.168.7.77    98:EE:CB:A1:F7:CD vlan207-ether2-BiennioMM!              
+414 D  10.210.0.108    E8:FB:1C:59:83:79 vlan210-ether1-WiFi-PVT                
+415 DC 10.210.0.202    B0:7D:64:BF:33:03 vlan210-ether1-WiFi-PVT                
+416 DC 10.210.0.192    38:BA:F8:09:D1:02 vlan210-ether1-WiFi-PVT                
+417 D  10.210.0.195    FC:F8:AE:5A:BF:8B vlan210-ether1-WiFi-PVT                
+418 DC 10.210.0.211    50:5A:65:FB:FF:BF vlan210-ether1-WiFi-PVT                
+419 DC 10.210.0.133    E0:D4:64:CA:AD:96 vlan210-ether1-WiFi-PVT                
+420 DC 10.210.0.188    90:61:AE:07:1E:B2 vlan210-ether1-WiFi-PVT                
+421 DC 10.210.0.191    48:45:20:97:E8:61 vlan210-ether1-WiFi-PVT                
+422 DC 10.210.0.171    D0:39:57:0D:E8:21 vlan210-ether1-WiFi-PVT                
+423 DC 10.210.0.190    F8:E4:E3:D8:76:88 vlan210-ether1-WiFi-PVT                
+424 DC 10.210.0.193    34:E6:AD:B8:3E:FE vlan210-ether1-WiFi-PVT                
+425 DC 10.210.0.212    B0:35:9F:E9:65:E7 vlan210-ether1-WiFi-PVT                
+426 DC 10.210.0.186    E2:84:93:BD:73:99 vlan210-ether1-WiFi-PVT                
+427 DC 192.168.9.59    5C:E0:C5:C1:6B:82 vlan209-ether1-WiFi-Dom                
+428 DC 192.168.99.239  28:29:86:6A:E8:5F vlan299-ether2-Management              
+429 D  192.168.1.109                     ether6-FIBRA-ISILINE-SEGRETERIA        
+430 D  192.168.1.112                     ether6-FIBRA-ISILINE-SEGRETERIA        
+431 D  192.168.1.111                     ether6-FIBRA-ISILINE-SEGRETERIA        
+432 D  192.168.1.114                     ether6-FIBRA-ISILINE-SEGRETERIA        
+433 D  192.168.1.117                     ether6-FIBRA-ISILINE-SEGRETERIA        
+434 D  192.168.1.104                     ether6-FIBRA-ISILINE-SEGRETERIA        
+435 D  192.168.1.132                     ether6-FIBRA-ISILINE-SEGRETERIA        
+436 D  192.168.1.135                     ether6-FIBRA-ISILINE-SEGRETERIA        
+437 D  192.168.1.122                     ether6-FIBRA-ISILINE-SEGRETERIA        
+438 D  192.168.1.125                     ether6-FIBRA-ISILINE-SEGRETERIA        
+439 D  192.168.1.131                     ether6-FIBRA-ISILINE-SEGRETERIA        
+440 D  192.168.1.133                     ether6-FIBRA-ISILINE-SEGRETERIA        
+441 D  192.168.1.136                     ether6-FIBRA-ISILINE-SEGRETERIA        
+442 D  192.168.1.123                     ether6-FIBRA-ISILINE-SEGRETERIA        
+443 DC 192.168.3.51    00:02:75:FC:6A:BA vlan203-ether2-Chimica                 
+444 DC 192.168.20.97   00:02:75:EA:C7:8D vlan220-ether2-AuleIstituto            
+445 DC 192.168.7.182   F4:4D:30:45:75:FF vlan207-ether2-BiennioMM!              
+446 DC 192.168.5.193   98:EE:CB:98:DB:01 ether3-Segreteria                      
+447 DC 192.168.9.92    FE:BA:8C:5E:BB:91 vlan209-ether1-WiFi-Dom                
+448 DC 10.210.0.134    D8:C0:A6:4B:4C:3F vlan210-ether1-WiFi-PVT                
+449 DC 10.210.0.176    70:CF:49:8D:62:33 vlan210-ether1-WiFi-PVT                
+450 D  192.168.20.138                    vlan220-ether2-AuleIstituto            
+451 D  192.168.1.128                     ether6-FIBRA-ISILINE-SEGRETERIA        
+452 DC 192.168.9.94    64:76:BA:A3:DB:60 vlan209-ether1-WiFi-Dom                
+453 DC 10.210.0.135    80:30:49:39:B1:AF vlan210-ether1-WiFi-PVT                
+454 DC 10.210.0.102    8C:B8:7E:FA:A2:CB vlan210-ether1-WiFi-PVT                
+455 DC 10.210.0.125    80:19:34:72:DB:B1 vlan210-ether1-WiFi-PVT                
+456 DC 10.210.0.214    DC:41:A9:C8:D8:E0 vlan210-ether1-WiFi-PVT                
+457 DC 10.210.0.178    E0:D0:45:50:48:C6 vlan210-ether1-WiFi-PVT                
+458 D  192.168.20.117                    vlan220-ether2-AuleIstituto            
+459 DC 10.210.0.196    50:2F:9B:29:93:34 vlan210-ether1-WiFi-PVT                
+460 DC 192.168.4.62    98:EE:CB:F8:21:39 vlan204-ether2-Elettrotecnica          
+461 DC 192.168.6.61    B8:AE:ED:31:3C:B9 vlan206-ether2-Informatica             
+462 DC 192.168.9.67    D4:1B:81:5D:3C:43 vlan209-ether1-WiFi-Dom                
+463 D  192.168.9.96    4A:3D:3A:60:67:D7 vlan209-ether1-WiFi-Dom                
+464 DC 192.168.3.64    00:30:18:C3:92:93 vlan203-ether2-Chimica                 
+465 DC 192.168.9.95    D4:1B:81:5D:3C:43 vlan209-ether1-WiFi-Dom                
+466 DC 192.168.3.67    98:EE:CB:F8:22:66 vlan203-ether2-Chimica                 
+467 DC 192.168.7.90    C0:3F:D5:BC:7C:43 vlan207-ether2-BiennioMM!              
+468 DC 10.210.0.159    80:A5:89:95:8A:DB vlan210-ether1-WiFi-PVT                
+469 D  192.168.9.54    F8:A2:D6:73:03:53 vlan209-ether1-WiFi-Dom                
+470 DC 192.168.6.55    B8:AE:ED:31:37:D5 vlan206-ether2-Informatica             
+471 DC 192.168.7.164   C0:3F:D5:F5:B4:E7 vlan207-ether2-BiennioMM!              
+472 DC 10.210.0.64     C4:BD:E5:86:03:49 vlan210-ether1-WiFi-PVT                
+473 D  192.168.20.248                    vlan220-ether2-AuleIstituto            
+474 DC 10.210.0.156    08:3E:8E:C4:C5:D3 vlan210-ether1-WiFi-PVT                
+475 DC 192.168.7.135   C0:3F:D5:F5:B4:D1 vlan207-ether2-BiennioMM!              
+476 DC 192.168.7.181   B8:AE:ED:BF:89:1E vlan207-ether2-BiennioMM!              
+477 DC 192.168.4.66    C0:3F:D5:BB:DC:8A vlan204-ether2-Elettrotecnica          
+478 DC 192.168.9.82    D6:3A:CC:73:CB:FD vlan209-ether1-WiFi-Dom                
+479 DC 10.50.3.17      24:A4:3C:94:85:AB bridge-Controllo-MNT                   
+480 D  10.210.0.114                      vlan210-ether1-WiFi-PVT                
+481 DC 192.168.4.85    98:EE:CB:F8:1F:05 vlan204-ether2-Elettrotecnica          
+482 DC 192.168.2.117   E8:9C:25:6A:D7:B5 vlan202-ether2-Meccanici               
+483 DC 192.168.3.69    98:EE:CB:FE:7C:57 vlan203-ether2-Chimica                 
+484 DC 192.168.2.98    E8:9C:25:6A:D7:8A vlan202-ether2-Meccanici               
+485 DC 192.168.6.94    B8:AE:ED:31:3C:44 vlan206-ether2-Informatica             
+486 DC 192.168.6.111   B8:AE:ED:31:36:6A vlan206-ether2-Informatica             
+487 DC 192.168.7.177   F4:4D:30:45:7C:37 vlan207-ether2-BiennioMM!              
+488 DC 192.168.9.53    DC:D9:16:5A:83:33 vlan209-ether1-WiFi-Dom                
+489 DC 10.210.0.198    6E:EE:17:85:00:D3 vlan210-ether1-WiFi-PVT                
+490 DC 192.168.6.83    B8:AE:ED:31:36:C5 vlan206-ether2-Informatica             
+491 D  10.210.0.54                       vlan210-ether1-WiFi-PVT                
+492 DC 192.168.2.103   E8:9C:25:6A:D6:94 vlan202-ether2-Meccanici               
+493 DC 192.168.7.167   C0:3F:D5:F5:95:18 vlan207-ether2-BiennioMM!              
+494 DC 192.168.7.166   C0:3F:D5:F5:B6:69 vlan207-ether2-BiennioMM!              
+495 D  192.168.20.143  48:2A:E3:6B:72:E1 vlan220-ether2-AuleIstituto            
+496 DC 192.168.7.154   F4:4D:30:45:76:55 vlan207-ether2-BiennioMM!              
+497 DC 10.50.3.20      44:D9:E7:C6:0C:85 bridge-Controllo-MNT                   
+498 DC 10.210.0.154    70:66:55:A3:DA:15 vlan210-ether1-WiFi-PVT                
+499 D  10.210.0.120    1C:57:DC:3F:55:9F vlan210-ether1-WiFi-PVT                
+500 DC 192.168.7.157   F4:4D:30:45:76:7F vlan207-ether2-BiennioMM!              
+501 D  192.168.9.61                      vlan209-ether1-WiFi-Dom                
+502 DC 192.168.7.178   F4:4D:30:45:74:E5 vlan207-ether2-BiennioMM!              
+503 DC 10.210.0.200    B8:9A:2A:33:CA:02 vlan210-ether1-WiFi-PVT                
+504 DC 192.168.20.51   00:02:75:EA:D9:6F vlan220-ether2-AuleIstituto            
+505 DC 192.168.7.128   C0:3F:D5:F5:96:52 vlan207-ether2-BiennioMM!              
+506 D  192.168.20.121                    vlan220-ether2-AuleIstituto            
+507 DC 10.210.0.52     C4:23:60:A0:36:D8 vlan210-ether1-WiFi-PVT                
+508 DC 192.168.6.114   B8:AE:ED:31:37:A1 vlan206-ether2-Informatica             
+509 DC 192.168.7.180   F4:4D:30:45:7D:34 vlan207-ether2-BiennioMM!              
+510 DC 192.168.20.96   F4:4D:30:94:A1:C4 vlan220-ether2-AuleIstituto            
+511 DC 192.168.4.72    98:EE:CB:F8:21:30 vlan204-ether2-Elettrotecnica          
+512 DC 192.168.6.70    B8:AE:ED:31:36:74 vlan206-ether2-Informatica             
+513 D  192.168.20.139                    vlan220-ether2-AuleIstituto            
+514 DC 192.168.2.105   E8:9C:25:6A:D7:75 vlan202-ether2-Meccanici               
+515 DC 192.168.7.161   C0:3F:D5:F5:B4:FB vlan207-ether2-BiennioMM!              
+516 DC 192.168.9.76    00:02:75:DB:60:93 vlan209-ether1-WiFi-Dom                
+517 DC 192.168.20.100  00:02:75:F7:F6:61 vlan220-ether2-AuleIstituto            
+518 DC 192.168.7.163   C0:3F:D5:F5:99:19 vlan207-ether2-BiennioMM!              
+519 DC 192.168.2.99    E8:9C:25:6A:D6:07 vlan202-ether2-Meccanici               
+520 DC 192.168.7.142   C0:3F:D5:F5:07:E4 vlan207-ether2-BiennioMM!              
+521 DC 192.168.6.108   B8:AE:ED:31:3C:9A vlan206-ether2-Informatica             
+522 DC 192.168.4.63    98:EE:CB:F8:21:35 vlan204-ether2-Elettrotecnica          
+523 DC 192.168.6.77    B8:AE:ED:31:3B:C2 vlan206-ether2-Informatica             
+524 D  10.210.0.173                      vlan210-ether1-WiFi-PVT                
+525 D  192.168.1.113                     ether6-FIBRA-ISILINE-SEGRETERIA        
+526 DC 192.168.2.106   E8:9C:25:6A:D7:F5 vlan202-ether2-Meccanici               
+527 DC 192.168.6.118   B8:AE:ED:31:37:ED vlan206-ether2-Informatica             
+528 D  10.210.0.201    E4:AA:EA:4B:EB:4D vlan210-ether1-WiFi-PVT                
+529 DC 192.168.25.100  D0:C8:57:80:15:15 vlan225-ether2-Cam                     
+530 DC 192.168.7.79    98:EE:CB:A1:F9:51 vlan207-ether2-BiennioMM!              
+531 DC 192.168.20.134  00:02:75:EA:C7:69 vlan220-ether2-AuleIstituto            
+532 DC 192.168.2.116   E8:9C:25:6A:D5:CB vlan202-ether2-Meccanici               
+533 DC 192.168.4.87    98:EE:CB:F8:20:33 vlan204-ether2-Elettrotecnica          
+534 DC 10.210.0.93     E0:0A:F6:49:12:05 vlan210-ether1-WiFi-PVT                
+535 DC 192.168.20.130  00:02:75:EA:79:E1 vlan220-ether2-AuleIstituto            
+536 DC 10.210.0.11     B6:D5:00:E1:ED:37 vlan210-ether1-WiFi-PVT                
+537 DC 192.168.2.108   E8:9C:25:6A:D5:F5 vlan202-ether2-Meccanici               
+538 D  10.210.0.70                       vlan210-ether1-WiFi-PVT                
+539 DC 192.168.7.69    98:EE:CB:9B:4D:4B vlan207-ether2-BiennioMM!              
+540 DC 192.168.7.171   C0:3F:D5:F5:B6:88 vlan207-ether2-BiennioMM!              
+541 DC 192.168.6.84    B8:AE:ED:31:36:BB vlan206-ether2-Informatica             
+542 DC 192.168.3.62    98:EE:CB:D2:14:69 vlan203-ether2-Chimica                 
+543 DC 192.168.7.89    C0:3F:D5:BC:7A:E2 vlan207-ether2-BiennioMM!              
+544 D  192.168.1.176                     ether6-FIBRA-ISILINE-SEGRETERIA        
+545 D  10.210.0.242                      vlan210-ether1-WiFi-PVT                
+546 DC 192.168.7.134   B8:AE:ED:BE:18:E5 vlan207-ether2-BiennioMM!              
+547 DC 192.168.9.72    E4:A7:A0:2B:F7:50 vlan209-ether1-WiFi-Dom                
+548 DC 192.168.7.139   C0:3F:D5:F5:96:08 vlan207-ether2-BiennioMM!              
+549 D  10.210.0.127                      vlan210-ether1-WiFi-PVT                
+550 DC 10.210.0.88     94:08:53:64:66:BF vlan210-ether1-WiFi-PVT                
+551 DC 192.168.6.62    00:02:75:F8:1B:21 vlan206-ether2-Informatica             
+552 DC 192.168.4.77    98:EE:CB:F8:20:AD vlan204-ether2-Elettrotecnica          
+553 DC 192.168.7.143   C0:3F:D5:F5:B7:F8 vlan207-ether2-BiennioMM!              
+554 D  192.168.9.91    E4:AA:EA:9A:09:11 vlan209-ether1-WiFi-Dom                
+555 D  192.168.20.128                    vlan220-ether2-AuleIstituto            
+556 DC 192.168.6.75    08:BF:B8:12:96:D3 vlan206-ether2-Informatica             
+557 D  10.210.0.119                      vlan210-ether1-WiFi-PVT                
+558 DC 192.168.2.104   E8:9C:25:6A:D7:A9 vlan202-ether2-Meccanici               
+559 D  192.168.1.156                     ether6-FIBRA-ISILINE-SEGRETERIA        
+560 DC 192.168.4.81    98:EE:CB:F8:1E:88 vlan204-ether2-Elettrotecnica          
+561 DC 192.168.6.105   08:BF:B8:12:99:57 vlan206-ether2-Informatica             
+562 D  10.210.0.117                      vlan210-ether1-WiFi-PVT                
+563 DC 192.168.6.99    C8:7F:54:65:DC:32 vlan206-ether2-Informatica             
+564 DC 192.168.4.75    98:EE:CB:F8:20:FF vlan204-ether2-Elettrotecnica          
+565 DC 192.168.6.209   00:80:91:CC:93:22 vlan206-ether2-Informatica             
+566 DC 192.168.2.97    E8:9C:25:6A:D7:E7 vlan202-ether2-Meccanici               
+567 DC 192.168.6.91    08:BF:B8:12:99:67 vlan206-ether2-Informatica             
+568 DC 192.168.20.23   00:02:75:FD:70:CC vlan220-ether2-AuleIstituto            
+569 DC 192.168.2.115   E8:9C:25:6A:D7:6E vlan202-ether2-Meccanici               
+570 D  192.168.20.109  00:02:75:FD:70:CC vlan220-ether2-AuleIstituto            
+571 DC 10.210.0.71     EC:2E:98:FA:74:05 vlan210-ether1-WiFi-PVT                
+572 DC 10.50.2.45      44:D9:E7:C6:0C:4A bridge-Controllo-MNT                   
+573 DC 192.168.7.168   C0:3F:D5:F5:B9:AB vlan207-ether2-BiennioMM!              
+574 DC 192.168.6.85    08:BF:B8:12:96:43 vlan206-ether2-Informatica             
+575 DC 192.168.2.100   E8:9C:25:6A:D5:7C vlan202-ether2-Meccanici               
+576 DC 192.168.6.66    08:BF:B8:12:96:48 vlan206-ether2-Informatica             
+577 DC 192.168.20.80   00:02:75:F8:09:39 vlan220-ether2-AuleIstituto            
+578 D  10.210.0.153                      vlan210-ether1-WiFi-PVT                
+579 D  10.210.0.79                       vlan210-ether1-WiFi-PVT                
+580 DC 192.168.7.162   C0:3F:D5:F5:C4:6E vlan207-ether2-BiennioMM!              
+581 D  192.168.9.50                      vlan209-ether1-WiFi-Dom                
+582 DC 10.210.0.98     00:45:E2:B9:19:87 vlan210-ether1-WiFi-PVT                
+583 DC 192.168.6.69    08:BF:B8:12:98:19 vlan206-ether2-Informatica             
+584 DC 192.168.2.111   E8:9C:25:6A:D5:91 vlan202-ether2-Meccanici               
+585 DC 192.168.4.65    98:EE:CB:F8:21:87 vlan204-ether2-Elettrotecnica          
+586 DC 192.168.97.67   AC:CB:51:3E:7A:33 ether12-VideoSorvegliaza               
+587 DC 192.168.6.90    08:BF:B8:12:99:5E vlan206-ether2-Informatica             
+588 DC 192.168.7.172   C0:3F:D5:F5:B7:3D vlan207-ether2-BiennioMM!              
+589 DC 192.168.25.55   00:1D:56:06:A3:97 vlan225-ether2-Cam                     
+590 DC 192.168.97.65   A4:14:37:85:81:18 ether12-VideoSorvegliaza               
+591 DC 192.168.6.87    08:BF:B8:12:98:64 vlan206-ether2-Informatica             
+592 D  10.210.0.187                      vlan210-ether1-WiFi-PVT                
+593 DC 192.168.97.64   A4:14:37:85:A5:95 ether12-VideoSorvegliaza               
+594 DC 192.168.97.66   AC:CB:51:3E:79:16 ether12-VideoSorvegliaza               
+595 DC 192.168.97.20   98:DF:82:DC:B6:A3 ether12-VideoSorvegliaza               
+596 DC 192.168.6.103   08:BF:B8:12:98:59 vlan206-ether2-Informatica             
